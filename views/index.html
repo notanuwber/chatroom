@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>chatroom</title>
+    <script type="text/javascript" src="/javascripts/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/javascripts/client.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+</head>
+<body>
+<script src="javascripts/bootstrap.min.js"></script>
+<div class="container">
+    <div class="row-fluid">
+        <h1 id="header">FSE Chat Room</h1>
+        <div id="history"></div>
+        <div id="input">
+            <textarea class="form-control" rows="2" name="message" id="message"></textarea>
+            <div class="col-lg-4 text-center">
+                <button type="button" id="send" class="btn btn-success btn-lg">POST</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

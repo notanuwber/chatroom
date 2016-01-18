@@ -1,0 +1,31 @@
+#header
+{
+  background-color: #169acb;
+}
+
+.well
+{
+  border:1px solid white;
+  padding: 3px;
+  margin-bottom: 1px;
+  margin-top: 0px;
+  width: 97.5%;
+}
+
+.span1
+{
+  float: right;
+  color: #999999;
+}
+
+#content
+{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 150%;
+}
+#input
+{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
